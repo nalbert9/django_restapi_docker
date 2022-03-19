@@ -48,7 +48,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'books'
+    'books',
 ]
 
 MIDDLEWARE = [
@@ -81,6 +81,14 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'book_store.wsgi.application'
 
+
+# EST_FRAMEWORK = {
+#    # Use Django's standard `django.contrib.auth` permissions,
+#    # or allow read-only access for unauthenticated users.
+#    'DEFAULT_VERSIONING_CLASS': [
+#        'rest_framework.versioning.URLPathVersioning',
+#    ]
+# 
 
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
